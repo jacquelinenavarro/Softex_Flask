@@ -1,8 +1,8 @@
 from flask import Flask
 from models import db
 from config import Config
-from controllers.usuario_controller import produto_bp
-from controllers.produto_controller import usuario_bp
+from controllers.usuario_controller import usuario_bp
+from controllers.produto_controller import produto_bp
 
 
 
